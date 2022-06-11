@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
   /***=====  V A R I A B L E S  =====***/
   :root {
-    --header-height: 36px;
+    --header-height: 56px;
 
     /**===  c o l o r s  ===**/
     --color-white: hsl(201, 45%, 88%);
@@ -84,7 +84,7 @@
 
   /***=====  A B O U T  =====***/
   .about {
-    margin-top: var(--m-2);
+    margin-top: var(--m-0-75);
   }
   .about-content,
   .about-img {
@@ -108,6 +108,7 @@
   /**===  g o a l s  ===**/
   .profile h1 {
     font-size: 23px;
+    margin-top: -10px;
     margin-left: 25px;
   }
   .goals-content .goals-text {
@@ -187,5 +188,8 @@
   .certs h2 {
     font-size: 12px;
     top: 70px;
+  }
+  .project{
+    margin-top: var(--m-0-75);
   }
 }

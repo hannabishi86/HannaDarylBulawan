@@ -313,6 +313,7 @@ h3 {
 
 /***=====  P R O F I L E  =====***/
 .profile {
+  margin-top: -35px;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -339,7 +340,7 @@ h3 {
 }
 .e-content h1 {
   font-size: 28px;
-  margin-top: -250px;
+  margin-top: -180px;
   margin-left: 25px;
 }
 .exp {
@@ -406,7 +407,7 @@ h3 {
 /**===  s k i l l s  ===**/
 .skills h1 {
   font-size: 28px;
-  margin-top: -170px;
+  margin-top: -130px;
   margin-left: 25px;
 }
 .skills h2 {
@@ -555,7 +556,7 @@ h3 {
 
 /***=====  P R O J E C T S  =====***/
 .project {
-  margin-top: 10px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   height: 100vh;

@@ -1,0 +1,197 @@
+@media only screen and (max-width: 393px) {
+  /***=====  V A R I A B L E S  =====***/
+  :root {
+    --header-height: 56px;
+
+    /**===  c o l o r s  ===**/
+    --color-white: hsl(201, 45%, 88%);
+    --color-light: hsl(202, 45%, 80%);
+    --color-gray: hsl(214, 35%, 37%);
+    --color-primary: hsl(362, 75%, 60%);
+    --color-dark: hsl(209, 70%, 13%);
+
+    /**===  f o n t s  ===**/
+    --body-font: "Rubik", sans-serif;
+    --h1-font-size: 28px;
+    --h2-font-size: 20px;
+    --h3-font-size: 16px;
+    --normal-font-size: 15px;
+    --small-font-size: 13px;
+
+    /**===  f o n t   w e i g h t s  ===**/
+    --font-medium: 400;
+    --font-semi-bold: 600;
+
+    /**===  m a r g i n s  ===**/
+    --m-0-5: 8px;
+    --m-0-75: 12px;
+    --m-1: 16px;
+    --m-1-5: 24px;
+    --m-2: 32px;
+    --m-2-5: 40px;
+    --m-5: 80px;
+
+    /**===  c a r d   p a d d i n g  ===**/
+    --card-padding: 30.4px 15.2px;
+
+    /**===  b o r d e r s  ===**/
+    --border-radius: 20px;
+
+    /**===  b o x   s h a d o w  ===**/
+    --box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+  }
+
+  .cont {
+    max-width: 330px;
+  }
+
+  /**===  n a v i g a t i o n  ===**/
+  .nav {
+    height: var(--header-height);
+  }
+  .nav-list {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .nav-close {
+    font-size: 16px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+  }
+  .nav-menu {
+    position: fixed;
+    background: var(--color-white);
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 100%;
+    padding: 64px 0 0 48px;
+    box-shadow: -2px 0 4px var(--color-dark);
+    border-radius: 16px 0 0 16px;
+    z-index: 100;
+    transition: 0.3s;
+  }
+
+  /**===   m e n u  ===**/
+  .show-menu {
+    right: 0;
+  }
+  .nav-close,
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .about {
+    margin-top: var(--m-2);
+  }
+
+  /***=====  P R O F I L E  =====***/
+  .about-content .about-text,
+  .profile,
+  .educ,
+  .exp,
+  .skills,
+  .certs {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /**===  g o a l s  ===**/
+  .profile h1 {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: -20px;
+  }
+
+  /**===  e d u c a t i o n  ===**/
+  .e-content h1 {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 180px;
+  }
+  .timeline .title {
+    font-size: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .timeline {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .timeline .timeline-date {
+    font-size: 13px;
+  }
+  .educ {
+    margin-bottom: 10px;
+  }
+
+  /**===  s k i l l s  ===**/
+  .skills .progress-box {
+    margin-left: 20px;
+  }
+  .skills h1 {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 430px;
+  }
+  .skills .title {
+    font-size: 15px;
+    margin-bottom: var(--m-1);
+  }
+  .skills .skill-item {
+    font-size: 13px;
+    padding-right: 100px;
+  }
+  .skills .skill-item h4 {
+    margin-bottom: 5px;
+  }
+  .skills .skill-item .progress {
+    height: 10px;
+    width: 210%;
+  }
+  .skills .skill-item .skill-percent {
+    position: absolute;
+    right: 0;
+    top: -27px;
+  }
+  .skills .progress-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  /**===  a c h i e v e m e n t s   &   c e r t s  ===**/
+  .certs {
+    margin-top: 10px;
+  }
+  .certs h1 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .certs h3 {
+    font-size: 15px;
+    top: 50px;
+  }
+  .certs h2 {
+    font-size: 12px;
+    top: 70px;
+  }
+  .certs-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /***=====  P R O J E C T  =====***/
+  .project {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .project-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .project-filter {
+    font-size: 20px;
+  }
+}
